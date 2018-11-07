@@ -1,0 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+.container {
+	width: 880px;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+/* body {
+	width: 1200px;
+} */
+
+.navigation {
+	display: inline-block;
+	width: 1200px;
+	padding: 20px;
+	color: lightgray;
+	word-spacing: 100px;
+	margin: 30px;
+}
+
+/* section {
+	width: 1200px;
+	margin: 30px;
+	border-bottom: 1px solid black;
+} */
+
+.inno {
+	display: inline-block;
+	font-size: 62px;
+	text-align: center;
+	
+}
+
+
+.code {
+	display: inline-block;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+.button {
+	/* display: inline-block; */
+	border: 1px solid black;
+	padding: 10px 40px;
+	vertical-align: top;
+	margin: 30px;
+}
+
+p {
+	width: 500px;
+}
+
+.hey {
+	display: inline-block;
+	margin: 30px 45px 30px 30px;
+}
+
+.middle-img {
+	margin-left: 20px;
+	width: 1200px;
+}
+
+.bottom-content {
+	border-bottom: 1px solid black;
+}
+
+.bottom {
+	width: 300px;
+}
+
+.contact {
+	margin: 30px;
+}
+
+footer {
+	text-align: center;
+}
+
